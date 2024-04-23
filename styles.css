@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set full height for the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Container for the content */
+.container {
+    text-align: center;
+    background-color: #e6e6fa; /* Light purple background */
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* 80% of viewport width */
+    max-width: 600px; /* Maximum width of 600px */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333333; /* Dark gray color */
+}
+
+/* Profile information styles */
+.profile {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555555; /* Medium gray color */
+}
+
+/* Label styles */
+strong {
+    /* No specific color set for <strong> tags */
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
