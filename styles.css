@@ -77,3 +77,19 @@ a[href^="tel:"]:hover {
     color: #0077b5; /* LinkedIn brand color */
     margin-right: 5px; /* Space between the icon and the text */
 }
+
+.phone-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34c759; /* iPhone green color */
+    color: white; /* White phone icon */
+    border-radius: 50%; /* Make it circular */
+    width: 24px; /* Diameter of the circle */
+    height: 24px; /* Diameter of the circle */
+    margin-right: 8px; /* Space between the icon and the phone number */
+}
+
+.phone-icon i {
+    font-size: 14px; /* Adjust icon size to fit the circle */
+}
