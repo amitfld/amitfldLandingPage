@@ -1,3 +1,3 @@
 # amitfldLandingPage
-My landing page | HTML, CSS
+My landing page
 
